@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CareerHub | Your Career. Your Opportunity.</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">C</span>
+                Career<span>Hub</span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#opportunities">Opportunities</a>
+                <a href="#features">Resources</a>
+                <a href="#how-it-works">How It Works</a>
+            </nav>
+
+            <div class="nav-buttons">
+
+                <button
+                    class="login-btn"
+                    onclick="showMessage('Login feature coming soon!')">
+                    Login
+                </button>
+
+                <button
+                    class="primary-btn small-btn"
+                    onclick="scrollToOpportunities()">
+                    Get Started
+                </button>
+
+            </div>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                ☰
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+
+        <div class="container hero-container">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    ✦ Your career journey starts here
+                </div>
+
+                <h1>
+                    Find Opportunities.
+                    <span>Build Your Future.</span>
+                </h1>
+
+                <p>
+                    Discover the latest job opportunities, career resources
+                    and useful updates — all in one simple place.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button
+                        class="primary-btn"
+                        onclick="scrollToOpportunities()">
+                        Explore Opportunities →
+                    </button>
+
+                    <button
+                        class="secondary-btn"
+                        onclick="scrollToSection('how-it-works')">
+                        How It Works
+                    </button>
+
+                </div>
+
+                <div class="hero-trust">
+
+                    <div class="avatars">
+                        <span>R</span>
+                        <span>A</span>
+                        <span>S</span>
+                        <span>+</span>
+                    </div>
+
+                    <div>
+                        <strong>10,000+</strong>
+                        <p>Career seekers growing with us</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO VISUAL -->
+            <div class="hero-visual">
+
+                <div class="floating-card notification-card">
+
+                    <div class="notification-icon">
+                        ✓
+                    </div>
+
+                    <div>
+                        <strong>New Opportunity</strong>
+                        <p>Just added today</p>
+                    </div>
+
+                </div>
+
+
+                <div class="career-card">
+
+                    <div class="card-top">
+
+                        <div class="company-logo">
+                            G
+                        </div>
+
+                        <div>
+                            <h3>Government Opportunity</h3>
+                            <p>CareerHub Verified</p>
+                        </div>
+
+                        <span class="bookmark">
+                            ♡
+                        </span>
+
+                    </div>
+
+
+                    <div class="job-details">
+
+                        <span>
+                            📍 India
+                        </span>
+
+                        <span>
+                            💼 Full Time
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-divider"></div>
+
+
+                    <div class="card-bottom">
+
+                        <div>
+                            <small>Application Status</small>
+                            <strong>Open Now</strong>
+                        </div>
+
+                        <span class="open-badge">
+                            OPEN
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="floating-card update-card">
+
+                    <div class="update-icon">
+                        ↗
+                    </div>
+
+                    <div>
+                        <strong>Stay Updated</strong>
+                        <p>Never miss an opportunity</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= STATS ================= -->
+    <section class="stats-section">
+
+        <div class="container stats">
+
+            <div class="stat">
+                <h2>500+</h2>
+                <p>Opportunities Listed</p>
+            </div>
+
+            <div class="stat">
+                <h2>10K+</h2>
+                <p>Active Users</p>
+            </div>
+
+            <div class="stat">
+                <h2>50+</h2>
+                <p>Career Resources</p>
+            </div>
+
+            <div class="stat">
+                <h2>24/7</h2>
+                <p>Latest Updates</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= OPPORTUNITIES ================= -->
+    <section class="opportunities section" id="opportunities">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-label">
+                        OPPORTUNITIES
+                    </span>
+
+                    <h2>
+                        Explore what's
+                        <span>waiting for you.</span>
+                    </h2>
+
+                </div>
+
+                <p>
+                    Find relevant opportunities and take the next
+                    step toward your career goals.
+                </p>
+
+            </div>
+
+
+            <div class="opportunity-grid">
+
+                <!-- GOVERNMENT JOBS -->
+                <div class="opportunity-card">
+
+                    <div class="opportunity-icon blue">
+                        💼
+                    </div>
+
+                    <span class="card-tag">
+                        LATEST
+                    </span>
+
+                    <h3>
+                        Government Jobs
+                    </h3>
+
+                    <p>
+                        Explore newly released government job
+                        opportunities from across India.
+                    </p>
+
+                    <a
+                        href="#"
+                        onclick="showMessage('Government Jobs section coming soon!'); return false;">
+                        Explore Jobs →
+                    </a>
+
+                </div>
+
+
+                <!-- EXAM UPDATES -->
+                <div class="opportunity-card featured-card">
+
+                    <div class="opportunity-icon purple">
+                        📋
+                    </div>
+
+                    <span class="card-tag">
+                        POPULAR
+                    </span>
+
+                    <h3>
+                        Exam Updates
+                    </h3>
+
+                    <p>
+                        Stay updated with application forms,
+                        admit cards, exams and results.
+                    </p>
+
+                    <a
+                        href="#"
+                        onclick="showMessage('Exam Updates section coming soon!'); return false;">
+                        View Updates →
+                    </a>
+
+                </div>
+
+
+                <!-- STUDY RESOURCES -->
+                <div class="opportunity-card">
+
+                    <div class="opportunity-icon orange">
+                        📚
+                    </div>
+
+                    <span class="card-tag">
+                        RESOURCES
+                    </span>
+
+                    <h3>
+                        Study Resources
+                    </h3>
+
+                    <p>
+                        Access useful study materials and resources
+                        to prepare with confidence.
+                    </p>
+
+                    <a
+                        href="#"
+                        onclick="showMessage('Study Resources section coming soon!'); return false;">
+                        Explore Resources →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+    <section class="features section" id="features">
+
+        <div class="container">
+
+            <div class="center-heading">
+
+                <span class="section-label">
+                    WHY CAREERHUB
+                </span>
+
+                <h2>
+                    Everything you need,
+                    <span>in one place.</span>
+                </h2>
+
+                <p>
+                    CareerHub makes your career search simpler,
+                    faster and more organized.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <!-- FEATURE 1 -->
+                <div class="feature-box">
+
+                    <div class="feature-number">
+                        01
+                    </div>
+
+                    <div class="feature-icon">
+                        🔔
+                    </div>
+
+                    <h3>
+                        Latest Notifications
+                    </h3>
+
+                    <p>
+                        Get important career and recruitment updates
+                        without searching multiple websites.
+                    </p>
+
+                </div>
+
+
+                <!-- FEATURE 2 -->
+                <div class="feature-box">
+
+                    <div class="feature-number">
+                        02
+                    </div>
+
+                    <div class="feature-icon">
+                        ⚡
+                    </div>
+
+                    <h3>
+                        Quick & Simple
+                    </h3>
+
+                    <p>
+                        Find the information you need through a clean
+                        and easy-to-use interface.
+                    </p>
+
+                </div>
+
+
+                <!-- FEATURE 3 -->
+                <div class="feature-box">
+
+                    <div class="feature-number">
+                        03
+                    </div>
+
+                    <div class="feature-icon">
+                        📊
+                    </div>
+
+                    <h3>
+                        Organized Information
+                    </h3>
+
+                    <p>
+                        Important dates, eligibility and updates are
+                        presented in an organized way.
+                    </p>
+
+                </div>
+
+
+                <!-- FEATURE 4 -->
+                <div class="feature-box">
+
+                    <div class="feature-number">
+                        04
+                    </div>
+
+                    <div class="feature-icon">
+                        🎯
+                    </div>
+
+                    <h3>
+                        Career Focused
+                    </h3>
+
+                    <p>
+                        Everything is designed to help you move
+                        one step closer to your career goal.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section
+        class="how-section section"
+        id="how-it-works">
+
+        <div class="container">
+
+            <div class="center-heading">
+
+                <span class="section-label">
+                    HOW IT WORKS
+                </span>
+
+                <h2>
+                    Your next opportunity is
+                    <span>three steps away.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="steps">
+
+                <!-- STEP 1 -->
+                <div class="step">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <div>
+                        <h3>
+                            Explore
+                        </h3>
+
+                        <p>
+                            Browse opportunities and career updates
+                            available on CareerHub.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="step-line"></div>
+
+
+                <!-- STEP 2 -->
+                <div class="step">
+
+                    <div class="step-number">
+                        02
+                    </div>
+
+                    <div>
+                        <h3>
+                            Discover
+                        </h3>
+
+                        <p>
+                            Check eligibility, important dates and
+                            other useful information.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="step-line"></div>
+
+
+                <!-- STEP 3 -->
+                <div class="step">
+
+                    <div class="step-number">
+                        03
+                    </div>
+
+                    <div>
+                        <h3>
+                            Take Action
+                        </h3>
+
+                        <p>
+                            Apply, prepare and take the next step
+                            toward your career.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+    <section class="cta-section">
+
+        <div class="container">
+
+            <div class="cta">
+
+                <div>
+
+                    <span class="section-label">
+                        START YOUR JOURNEY
+                    </span>
+
+                    <h2>
+                        Your next opportunity
+                        <br>
+                        could be one click away.
+                    </h2>
+
+                    <p>
+                        Explore CareerHub and discover what's next
+                        for your career.
+                    </p>
+
+                </div>
+
+                <button
+                    class="white-btn"
+                    onclick="scrollToOpportunities()">
+                    Explore CareerHub →
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <!-- FOOTER BRAND -->
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span class="logo-icon">C</span>
+                    Career<span>Hub</span>
+                </a>
+
+                <p>
+                    Helping you discover opportunities,
+                    build skills and move closer to your
+                    career goals.
+                </p>
+
+            </div>
+
+
+            <!-- FOOTER LINKS -->
+            <div class="footer-links">
+
+                <div>
+
+                    <h4>
+                        CareerHub
+                    </h4>
+
+                    <a href="#home">
+                        Home
+                    </a>
+
+                    <a href="#opportunities">
+                        Opportunities
+                    </a>
+
+                    <a href="#features">
+                        Resources
+                    </a>
+
+                    <a href="#how-it-works">
+                        How It Works
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Opportunities
+                    </h4>
+
+                    <a
+                        href="#opportunities"
+                        onclick="showMessage('Government Jobs section coming soon!'); return false;">
+                        Government Jobs
+                    </a>
+
+                    <a
+                        href="#opportunities"
+                        onclick="showMessage('Exam Updates section coming soon!'); return false;">
+                        Exam Updates
+                    </a>
+
+                    <a
+                        href="#features"
+                        onclick="showMessage('Study Resources section coming soon!'); return false;">
+                        Study Resources
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Support
+                    </h4>
+
+                    <a
+                        href="#"
+                        onclick="showMessage('Help Center coming soon!'); return false;">
+                        Help Center
+                    </a>
+
+                    <a
+                        href="#"
+                        onclick="showMessage('Contact feature coming soon!'); return false;">
+                        Contact Us
+                    </a>
+
+                    <a
+                        href="#"
+                        onclick="showMessage('Privacy Policy coming soon!'); return false;">
+                        Privacy Policy
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+        <div class="container footer-bottom">
+
+            <p>
+                © 2026 CareerHub. All rights reserved.
+            </p>
+
+            <div class="social-links">
+
+                <a
+                    href="#"
+                    onclick="showMessage('Instagram coming soon!'); return false;">
+                    Instagram
+                </a>
+
+                <a
+                    href="#"
+                    onclick="showMessage('LinkedIn coming soon!'); return false;">
+                    LinkedIn
+                </a>
+
+                <a
+                    href="#"
+                    onclick="showMessage('Facebook coming soon!'); return false;">
+                    Facebook
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+    
+            
+
+
+        <script src="script.js"></script>
+
+
+</body>
+
+</html>
