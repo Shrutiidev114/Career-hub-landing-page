@@ -8,7 +8,7 @@ Built using HTML, CSS, and JavaScript, it features a forest-green and cream colo
 🌐 Live Demo
 
 🚀 View CareerHub Live
-
+https://shrutiidev114.github.io/Career-hub-landing-page/
 
 
 ✨ Features
