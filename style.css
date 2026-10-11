@@ -1,10 +1,4 @@
 /* =========================
-   CAREER HUB
-   FOREST GREEN + CREAM + CHARCOAL
-========================= */
-
-
-/* =========================
    COLOR VARIABLES
 ========================= */
 
@@ -1136,13 +1130,31 @@ footer {
 
 @media (max-width: 900px) {
 
-    .nav-links,
-    .nav-buttons {
+      .nav-links {
         display: none;
     }
 
+    .nav-buttons {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .login-btn {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .small-btn {
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+
+    /* Show hamburger menu */
     .menu-btn {
         display: block;
+        font-size: 23px;
+        margin-left: 5px;
     }
 
     .nav-links.active {
